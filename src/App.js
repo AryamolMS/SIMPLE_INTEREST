@@ -18,8 +18,7 @@ function App() {
     const {name,value}=e.target
    /*  console.log(name,value); */
    
-    if(!!value.match(/^[0-9]+.
-    $/)){
+    if(!!value.match(/^[0-9]+$/)){
       if(name==="principle"){
          setPrinciple(value)
          setIsPrinciple(true)
